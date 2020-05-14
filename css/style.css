@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+}
+header{
+    height: 35vh;
+}
+h1{
+    color: #f8f406f1;
+    text-align: center;
+    padding-top: 15vh;
+    font-size: 15vw;
+    font-family: monospace, sans-serif;
+}
+main{
+    padding-top: 3vh;
+    text-align: center;
+    background-color: #3a3a3a;
+    height: 33vh;
+}
+p{
+    color: #e9e5e5e7;
+    font-size: 6vw;
+    background-color: #3a3a3a;
+}
+button{
+    background-color: #ff7501;
+    color: #111111;
+    font-weight: 700;
+    border: 2px solid #e7e7e7;
+    padding: 1%;
+    font-size: 3vw;
+    margin-top: 2.5%;
+    margin-left: 1%;
+}
+div{
+    background-color: #ffffff;
+    display: none;
+    height: 10vh;
+    color: #0f0f0f;
+    font-size: 5vw;
+    padding-top: 2%;
+    margin-top: 2.5%;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    width: 50%;
+}
+@media (min-width:768px){
+    
+    header{
+        height: 35vh;
+    }
+    h1{
+        padding-top: 10vh;
+        font-size: 12vw;
+    }
+    p{
+        font-size: 5vw;
+    }
+    button{
+        font-size: 2vw;
+    }
+    div{
+        font-size: 3vw;
+        padding-top: 1%;
+    }
+    main{
+        height: 40vh;
+    }
+}
+@media (min-width:1200px){
+    header{
+        height: 30vh;
+    }
+    h1{
+        padding-top: 5vh;
+        font-size: 8vw;
+    }
+    p{
+        font-size: 3.5vw;
+    }
+    button{
+        font-size: 1.5vw;
+    }
+    div{
+        font-size: 2vw;
+        padding-top: 1%;
+    }
+    main{
+        height: 40vh;
+
+    }
+}
